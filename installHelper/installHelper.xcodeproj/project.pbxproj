@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		868D46001C8B047E0009251E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 868D45FF1C8B047E0009251E /* AppDelegate.m */; };
+		868D46031C8B047E0009251E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 868D46021C8B047E0009251E /* main.m */; };
+		868D46051C8B047E0009251E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868D46041C8B047E0009251E /* Assets.xcassets */; };
+		868D46081C8B047E0009251E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868D46061C8B047E0009251E /* MainMenu.xib */; };
+		868D46301C8B0F240009251E /* 21.5iMac-27iMac-Late2012.png in Resources */ = {isa = PBXBuildFile; fileRef = 868D462C1C8B0F240009251E /* 21.5iMac-27iMac-Late2012.png */; };
+		868D46321C8B0F240009251E /* macbookpro.png in Resources */ = {isa = PBXBuildFile; fileRef = 868D462E1C8B0F240009251E /* macbookpro.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		868D460F1C8B047E0009251E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868D45F31C8B047E0009251E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 868D45FA1C8B047E0009251E;
+			remoteInfo = installHelper;
+		};
+		868D461A1C8B047E0009251E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868D45F31C8B047E0009251E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 868D45FA1C8B047E0009251E;
+			remoteInfo = installHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		868D45FB1C8B047E0009251E /* installHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = installHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		868D45FE1C8B047E0009251E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		868D45FF1C8B047E0009251E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		868D46021C8B047E0009251E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		868D46041C8B047E0009251E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		868D46071C8B047E0009251E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		868D46091C8B047E0009251E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868D460E1C8B047E0009251E /* installHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = installHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		868D46191C8B047E0009251E /* installHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = installHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		868D462C1C8B0F240009251E /* 21.5iMac-27iMac-Late2012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "21.5iMac-27iMac-Late2012.png"; sourceTree = "<group>"; };
+		868D462E1C8B0F240009251E /* macbookpro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macbookpro.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		868D45F81C8B047E0009251E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868D460B1C8B047E0009251E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868D46161C8B047E0009251E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		868D45F21C8B047E0009251E = {
+			isa = PBXGroup;
+			children = (
+				868D45FD1C8B047E0009251E /* installHelper */,
+				868D45FC1C8B047E0009251E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		868D45FC1C8B047E0009251E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				868D45FB1C8B047E0009251E /* installHelper.app */,
+				868D460E1C8B047E0009251E /* installHelperTests.xctest */,
+				868D46191C8B047E0009251E /* installHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		868D45FD1C8B047E0009251E /* installHelper */ = {
+			isa = PBXGroup;
+			children = (
+				868D462C1C8B0F240009251E /* 21.5iMac-27iMac-Late2012.png */,
+				868D462E1C8B0F240009251E /* macbookpro.png */,
+				868D45FE1C8B047E0009251E /* AppDelegate.h */,
+				868D45FF1C8B047E0009251E /* AppDelegate.m */,
+				868D46041C8B047E0009251E /* Assets.xcassets */,
+				868D46061C8B047E0009251E /* MainMenu.xib */,
+				868D46091C8B047E0009251E /* Info.plist */,
+				868D46011C8B047E0009251E /* Supporting Files */,
+			);
+			path = installHelper;
+			sourceTree = "<group>";
+		};
+		868D46011C8B047E0009251E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				868D46021C8B047E0009251E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		868D45FA1C8B047E0009251E /* installHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868D46221C8B047E0009251E /* Build configuration list for PBXNativeTarget "installHelper" */;
+			buildPhases = (
+				868D45F71C8B047E0009251E /* Sources */,
+				868D45F81C8B047E0009251E /* Frameworks */,
+				868D45F91C8B047E0009251E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = installHelper;
+			productName = installHelper;
+			productReference = 868D45FB1C8B047E0009251E /* installHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		868D460D1C8B047E0009251E /* installHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868D46251C8B047E0009251E /* Build configuration list for PBXNativeTarget "installHelperTests" */;
+			buildPhases = (
+				868D460A1C8B047E0009251E /* Sources */,
+				868D460B1C8B047E0009251E /* Frameworks */,
+				868D460C1C8B047E0009251E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				868D46101C8B047E0009251E /* PBXTargetDependency */,
+			);
+			name = installHelperTests;
+			productName = installHelperTests;
+			productReference = 868D460E1C8B047E0009251E /* installHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		868D46181C8B047E0009251E /* installHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868D46281C8B047E0009251E /* Build configuration list for PBXNativeTarget "installHelperUITests" */;
+			buildPhases = (
+				868D46151C8B047E0009251E /* Sources */,
+				868D46161C8B047E0009251E /* Frameworks */,
+				868D46171C8B047E0009251E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				868D461B1C8B047E0009251E /* PBXTargetDependency */,
+			);
+			name = installHelperUITests;
+			productName = installHelperUITests;
+			productReference = 868D46191C8B047E0009251E /* installHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		868D45F31C8B047E0009251E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = gpardoe.co.uk;
+				TargetAttributes = {
+					868D45FA1C8B047E0009251E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					868D460D1C8B047E0009251E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 868D45FA1C8B047E0009251E;
+					};
+					868D46181C8B047E0009251E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 868D45FA1C8B047E0009251E;
+					};
+				};
+			};
+			buildConfigurationList = 868D45F61C8B047E0009251E /* Build configuration list for PBXProject "installHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 868D45F21C8B047E0009251E;
+			productRefGroup = 868D45FC1C8B047E0009251E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				868D45FA1C8B047E0009251E /* installHelper */,
+				868D460D1C8B047E0009251E /* installHelperTests */,
+				868D46181C8B047E0009251E /* installHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		868D45F91C8B047E0009251E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868D46321C8B0F240009251E /* macbookpro.png in Resources */,
+				868D46051C8B047E0009251E /* Assets.xcassets in Resources */,
+				868D46081C8B047E0009251E /* MainMenu.xib in Resources */,
+				868D46301C8B0F240009251E /* 21.5iMac-27iMac-Late2012.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868D460C1C8B047E0009251E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868D46171C8B047E0009251E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		868D45F71C8B047E0009251E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868D46031C8B047E0009251E /* main.m in Sources */,
+				868D46001C8B047E0009251E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868D460A1C8B047E0009251E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868D46151C8B047E0009251E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		868D46101C8B047E0009251E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 868D45FA1C8B047E0009251E /* installHelper */;
+			targetProxy = 868D460F1C8B047E0009251E /* PBXContainerItemProxy */;
+		};
+		868D461B1C8B047E0009251E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 868D45FA1C8B047E0009251E /* installHelper */;
+			targetProxy = 868D461A1C8B047E0009251E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		868D46061C8B047E0009251E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				868D46071C8B047E0009251E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		868D46201C8B047E0009251E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		868D46211C8B047E0009251E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		868D46231C8B047E0009251E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = installHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.gpardoe.installHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		868D46241C8B047E0009251E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = installHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.gpardoe.installHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		868D46261C8B047E0009251E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = installHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.gpardoe.installHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/installHelper.app/Contents/MacOS/installHelper";
+			};
+			name = Debug;
+		};
+		868D46271C8B047E0009251E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = installHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.gpardoe.installHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/installHelper.app/Contents/MacOS/installHelper";
+			};
+			name = Release;
+		};
+		868D46291C8B047E0009251E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = installHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.gpardoe.installHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = installHelper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		868D462A1C8B047E0009251E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = installHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.gpardoe.installHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = installHelper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		868D45F61C8B047E0009251E /* Build configuration list for PBXProject "installHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868D46201C8B047E0009251E /* Debug */,
+				868D46211C8B047E0009251E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868D46221C8B047E0009251E /* Build configuration list for PBXNativeTarget "installHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868D46231C8B047E0009251E /* Debug */,
+				868D46241C8B047E0009251E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		868D46251C8B047E0009251E /* Build configuration list for PBXNativeTarget "installHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868D46261C8B047E0009251E /* Debug */,
+				868D46271C8B047E0009251E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		868D46281C8B047E0009251E /* Build configuration list for PBXNativeTarget "installHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868D46291C8B047E0009251E /* Debug */,
+				868D462A1C8B047E0009251E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 868D45F31C8B047E0009251E /* Project object */;
+}
